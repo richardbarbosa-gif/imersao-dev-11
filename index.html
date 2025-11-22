@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBox - Header</title>
+    
+    <!-- Fontes Google (Tipografia) -->
+    <link rel="preconnect" href="[https://fonts.googleapis.com](https://fonts.googleapis.com)">
+    <link rel="preconnect" href="[https://fonts.gstatic.com](https://fonts.gstatic.com)" crossorigin>
+   <!-- TIRE A LINHA ANTIGA DOS ÍCONES E COLOQUE ESTA: -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    
+    <!-- Ícones do Google (Material Symbols) -->
+    <link href="[https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined](https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined)" rel="stylesheet" />
+
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <!-- INÍCIO DO CABEÇALHO -->
+    <header class="main-header">
+        
+        <!-- Barra de Navegação (Menu) -->
+        <nav class="navbar">
+            <!-- Logo -->
+            <div class="logo">
+                <span class="material-symbols-outlined">terminal</span>
+                DevBox
+            </div>
+            
+            <!-- Links do Menu -->
+            <ul class="nav-links">
+                <li><a href="#saiba-mais">Saiba Mais</a></li>
+                <li><a href="#faq">FAQ</a></li>
+                <li><a href="#oferta" class="btn-destaque">Oferta</a></li>
+                <li><a href="#oraculo"class="btn-destaque-azul">Oráculo</a></li> 
+            </ul>
+
+            <!-- Ícone Menu Mobile (Hambúrguer) -->
+            <div class="menu-toggle">
+                <span class="material-symbols-outlined">menu</span>
+            </div>
+        </nav>
+
+        <!-- Conteúdo Principal do Topo (Headline) -->
+        <div class="hero-container">
+            <div class="tag-tech">#DevLifeStyle</div>
+            
+            <h1>
+                Eleve seu nível de <br>
+                <span class="texto-neon">Programação</span>
+            </h1>
+            
+            <p class="subtitulo">
+                A caixa mensal com gadgets, café e conhecimento para quem respira tecnologia.
+            </p>
+            
+            <a href="#oferta" class="btn-cta">Quero minha Box</a>
+        </div>
+
+        <!-- Filtro escuro sobre a imagem para o texto aparecer -->
+        <div class="overlay"></div>
+
+    </header>
+    <!-- FIM DO CABEÇALHO -->
+
+<!-- NOVA SESSÃO: A REALIDADE DA IA (Zig-Zag Layout) -->
+    <section id="realidade-ia" class="secao-conteudo">
+        <div class="container">
+            
+            <!-- Bloco 1: Texto Esquerda, Imagem Direita -->
+            <div class="linha-conteudo">
+                <div class="coluna-texto">
+                    <h2 class="titulo-secao">A IA vai <span class="destaque-rosa">roubar</span> seu emprego?</h2>
+                    <h3 class="subtitulo-secao">Spoiler: Não. (Mas ela vai atropelar quem parou no tempo).</h3>
+                    <p>
+                        Muita gente está em pânico achando que o ChatGPT vai substituir os programadores. 
+                        Calma, jovem Padawan. A verdade é mais simples:
+                    </p>
+                    <p>
+                        A IA é como um estagiário super rápido que tomou 5 litros de café. ☕ 
+                        Ela digita código na velocidade da luz, mas <strong>não tem criatividade</strong> e nem visão de negócio.
+                        Quem tem que dar as ordens certas? <strong>Você.</strong>
+                    </p>
+                    <p>
+                        O mercado não quer mais "digitadores de código". O mercado quer Arquitetos de Soluções 
+                        que usam a IA como co-piloto. E para pilotar essa nave, você precisa estar preparado.
+                    </p>
+                </div>
+                <div class="coluna-imagem">
+                    <!-- Lembre-se de salvar a imagem 'motivo-ia.png' na pasta imagens -->
+                    <img src="imagens/IA.png" alt="Robô IA cumprimentando desenvolvedor humano" class="img-efeito">
+                    <div class="legenda-flutuante">
+                        <span class="material-symbols-outlined">smart_toy</span>
+                        IA = Ferramenta
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bloco 2: Imagem Esquerda, Texto Direita (Invertido) -->
+            <div class="linha-conteudo invertido">
+                <div class="coluna-texto">
+                    <h2 class="titulo-secao">Domine a <span class="destaque-azul">Lógica</span>, não a Sintaxe.</h2>
+                    <p>
+                        Por que aprender a programar agora? Porque nunca foi tão fácil construir coisas incríveis. 
+                        A barreira técnica diminuiu, e a barreira <strong>criativa</strong> aumentou.
+                    </p>
+                    <p>
+                        A DevBox existe para manter sua chama acesa. Nós entregamos o combustível (sim, café de verdade), 
+                        o estilo (camisetas e stickers) e os gadgets que tornam seu setup um templo de produtividade.
+                    </p>
+                    <p>
+                        Não seja apenas um usuário de tecnologia. Seja um <strong>Criador</strong>. 
+                        O mundo digital é seu playground, e nós te damos os brinquedos.
+                    </p>
+                    <a href="#oferta" class="link-seta">Ver os planos da Box <span class="material-symbols-outlined">arrow_forward</span></a>
+                </div>
+                <div class="coluna-imagem">
+                    <!-- Lembre-se de salvar a imagem 'motivo-carreira.png' na pasta imagens -->
+                    <img src="imagens/dev.png" alt="Desenvolvedor focado criando soluções" class="img-efeito">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+<!-- =========================================
+         SEÇÃO: O ROBÔ PILHADO (Centralizado)
+         ========================================= -->
+    <section class="secao-robo">
+        <div class="layout-robo-centralizado">
+            
+            <!-- 1. O MONITOR (Topo) -->
+            <div class="area-monitor">
+                <div class="monitor-borda">
+                    <div class="monitor-tela">
+                        <!-- Imagem do Robô -->
+                        <img src="imagens/robo.png" alt="Robô IA hiperativo com energético" class="img-tremendo">
+                        
+                        <!-- Código de Erro -->
+                        <div class="overlay-codigo">ERROR: CAFFEINE_OVERFLOW</div>
+                    </div>
+                    <!-- Base do Monitor -->
+                    <div class="monitor-base"></div>
+                </div>
+            </div>
+
+            <!-- 2. O TEXTO DE VENDAS (Meio) -->
+            <div class="texto-venda-centro">
+                <h2>
+                    A IA tem <span class="destaque-rosa">Energia Infinita</span>...<br>
+                    Mas quem tem a <span class="destaque-azul">Direção</span> é você.
+                </h2>
+                
+                <div class="bloco-texto">
+                    <p class="paragrafo-destaque">
+                        Olhe para o lado. Tem muita gente "tremendo" de medo do futuro, correndo sem sair do lugar, assim como esse robô.
+                    </p>
+                    
+                    <p>
+                        A verdade crua? <strong>A IA é um motor de Ferrari em um skate.</strong> Ela gera código rápido, mas sem visão, sem estratégia e sem alma. Sem um piloto experiente, ela bate no muro.
+                    </p>
+                    
+                    <p>
+                        <strong>Você é o piloto.</strong> Mas até o melhor piloto precisa do melhor cockpit.
+                    </p>
+                    
+                    <p>
+                        A <span class="texto-neon">DevBox</span> não entrega apenas "coisas". Nós entregamos o ambiente profissional que separa os amadores dos Seniores. O café que te acorda, os gadgets que agilizam seu workflow e o conhecimento que a IA não consegue copiar.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 3. O BOTÃO (Embaixo) -->
+            <div class="box-cta-centro">
+                <p>Pare de tremer. Assuma o controle.</p>
+                <a href="#oferta" class="btn-robo">Quero meu Kit de Piloto</a>
+            </div>
+
+        </div>
+    </section>
+
+
+<!-- =========================================
+     SEÇÃO DE OFERTA: GLASSMORPHISM
+     ========================================= -->
+<section id="oferta" class="secao-oferta">
+    
+    <!-- Elementos de Fundo (Luzes Neon Animadas) -->
+    <div class="luz-neon luz-rosa"></div>
+    <div class="luz-neon luz-azul"></div>
+
+    <div class="container relativo">
+        <div class="header-oferta">
+            <h2 class="titulo-secao">Escolha sua <span class="texto-neon">Classe</span></h2>
+            <p class="subtitulo-secao">Do "Hello World" ao Full Stack. Qual o seu nível de poder atual?</p>
+        </div>
+
+        <div class="grid-ofertas">
+            
+            <!-- CARD 1: JUNIOR -->
+            <div class="card-vidro card-tilt">
+                <div class="cabecalho-card">
+                    <span class="material-symbols-outlined icone-card">terminal</span>
+                    <h3>Startar o Console</h3>
+                    <p class="descricao-plano">Para quem está compilando os primeiros sonhos.</p>
+                </div>
+                
+                <div class="preco">
+                    <span class="moeda">R$</span> 29,90 <span class="mes">/mês</span>
+                </div>
+
+                <ul class="lista-beneficios">
+                    <li><span class="material-symbols-outlined">check</span> 1 Gadget Aleatório</li>
+                    <li><span class="material-symbols-outlined">check</span> Stickers de Atalhos</li>
+                    <li><span class="material-symbols-outlined">check</span> Café "Debugador"</li>
+                    <li><span class="material-symbols-outlined">check</span> Acesso ao Discord</li>
+                </ul>
+
+                <a href="#" class="btn-oferta">Começar Agora</a>
+            </div>
+
+            <!-- CARD 2: SENIOR (DESTAQUE) -->
+            <div class="card-vidro destaque card-tilt">
+                <div class="tag-destaque">Recomendado pela Alura</div>
+                <div class="cabecalho-card">
+                    <span class="material-symbols-outlined icone-card">rocket_launch</span>
+                    <h3>Deploy em Produção</h3>
+                    <p class="descricao-plano">O kit definitivo para quem não aceita bugs.</p>
+                </div>
+                
+                <div class="preco">
+                    <span class="moeda">R$</span> 59,90 <span class="mes">/mês</span>
+                </div>
+
+                <ul class="lista-beneficios">
+                    <li><span class="material-symbols-outlined">verified</span> <strong>3 Gadgets Premium</strong></li>
+                    <li><span class="material-symbols-outlined">verified</span> Stickers Holográficos</li>
+                    <li><span class="material-symbols-outlined">verified</span> Energético da Hype</li>
+                    <li><span class="material-symbols-outlined">verified</span> Mentoria de Carreira</li>
+                </ul>
+
+                <!-- BOTÃO ATUALIZADO COM FRASE ÚNICA -->
+                <a href="#" class="btn-oferta btn-cheio">Quero ser Sênior</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- =========================================
+         SEÇÃO SAIBA MAIS: CARREGADA VIA JSON
+         ========================================= -->
+    <section id="saiba-mais" class="secao-arsenal">
+        <div class="container">
+            <div class="header-centralizado">
+                <h2 class="titulo-secao">O que vem no <span class="destaque-azul">Inventário?</span></h2>
+                <p class="subtitulo-secao">O loot épico para <span class="destaque-rosa">upar</span> suas skills e zerar o backlog com estilo.</p>
+            </div>
+
+            <!-- A MÁGICA ACONTECE AQUI: -->
+            <!-- 1. Apaguei todos os cards que estavam escritos aqui dentro -->
+            <!-- 2. Adicionei o id="container-arsenal" para o JS achar essa caixa -->
+            <div class="grid-arsenal" id="container-arsenal">
+                <!-- O JavaScript vai jogar os cards aqui dentro automaticamente -->
+            </div>
+        </div>
+    </section>
+<!-- =========================================
+         SEÇÃO GARANTIA: RISCO ZERO (Fundo Original)
+         ========================================= -->
+    <section id="garantia" class="secao-garantia">
+        <div class="container">
+            <div class="box-garantia">
+                <div class="icone-selo">
+                    <span class="material-symbols-outlined">verified_user</span>
+                </div>
+                <div class="texto-garantia">
+                    <h2>Garantia de <span class="destaque-verde">Compile Sucesso</span></h2>
+                    <p>
+                        Teste a DevBox por <strong>7 dias</strong>. Se você sentir que seu setup não ficou mais poderoso 
+                        ou se o café não for forte o suficiente, nós devolvemos 100% do seu investimento. 
+                        Sem perguntas, sem bugs. É só mandar um `rollback`.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =========================================
+         SEÇÃO FAQ: O PROCESSADOR (Fundo Chip)
+         ========================================= -->
+    <section id="faq" class="secao-faq">
+        <!-- Overlay Escuro (Igual ao cabeçalho) -->
+        <div class="overlay-faq"></div>
+
+        <div class="container relativo">
+            <div class="header-centralizado">
+                <h2 class="titulo-secao">Documentação <span class="texto-neon">FAQ</span></h2>
+                <p class="subtitulo-secao">Tirando suas dúvidas antes do deploy final.</p>
+            </div>
+
+            <div class="faq-container">
+                
+                <!-- Pergunta 1 -->
+                <details class="faq-item">
+                    <summary>
+                        <span class="pergunta">O que é exatamente a DevBox?</span>
+                        <span class="material-symbols-outlined icone-abrir">add</span>
+                    </summary>
+                    <div class="resposta">
+                        <p>É um clube de assinatura mensal focado em desenvolvedores. Todo mês você recebe uma caixa física contendo gadgets úteis (cabos, organizadores), itens de lifestyle (stickers, canecas) e consumíveis (café, energéticos), tudo com curadoria de especialistas da Alura e Google.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 2 -->
+                <details class="faq-item">
+                    <summary>
+                        <span class="pergunta">O que o produto faz pela minha carreira?</span>
+                        <span class="material-symbols-outlined icone-abrir">add</span>
+                    </summary>
+                    <div class="resposta">
+                        <p>Além dos itens físicos que melhoram seu setup e produtividade, a DevBox entrega conhecimento. O acesso à comunidade VIP e os descontos na Alura (para assinantes Sênior) aceleram seu aprendizado e networking. É um investimento no seu ambiente de trabalho.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 3 -->
+                <details class="faq-item">
+                    <summary>
+                        <span class="pergunta">Como funciona a Garantia de 7 dias?</span>
+                        <span class="material-symbols-outlined icone-abrir">add</span>
+                    </summary>
+                    <div class="resposta">
+                        <p>Simples: Assinou, recebeu a primeira caixa e não curtiu? Você tem 7 dias corridos após o recebimento para entrar em contato. Nós estornamos o valor do plano e você nem precisa pagar o frete de devolução. Risco zero.</p>
+                    </div>
+                </details>
+
+                <!-- Pergunta 4 -->
+                <details class="faq-item">
+                    <summary>
+                        <span class="pergunta">Posso cancelar quando quiser?</span>
+                        <span class="material-symbols-outlined icone-abrir">add</span>
+                    </summary>
+                    <div class="resposta">
+                        <p>Com certeza. Não acreditamos em fidelidade forçada, apenas em código limpo. Você pode cancelar sua assinatura a qualquer momento pelo painel do usuário, sem multas e sem letras miúdas.</p>
+                    </div>
+                </details>
+
+            </div>
+        </div>
+    </section>
+
+<!-- =========================================
+         SEÇÃO QUEM SOMOS: A GUILDA
+         ========================================= -->
+    <section id="quem-somos" class="secao-quem-somos">
+        <div class="container">
+            <div class="linha-conteudo">
+                
+                <!-- FOTO NA ESQUERDA -->
+                <div class="coluna-imagem">
+                    <!-- Salve sua foto como 'logo.png' na pasta imagens -->
+                    <img src="imagens/logo.png" alt="Time DevBox trabalhando" class="img-efeito borda-neon">
+                </div>
+
+                <!-- TEXTO NA DIREITA -->
+                <div class="coluna-texto">
+                    <h2 class="titulo-secao">Quem está por trás do <span class="destaque-rosa">Console?</span></h2>
+                    <h3 class="subtitulo-secao">De Devs para Devs. Sem enrolação.</h3>
+                    
+                    <p>
+                        A DevBox não nasceu em uma sala de reunião chata com ar condicionado quebrado. 
+                        Ela nasceu em um Hackathon, às 3 da manhã, regada a pizza fria e muito energético.
+                    </p>
+                    <p>
+                        Cansamos de ver kits de boas-vindas com canetas que não funcionam e camisetas que encolhem. 
+                        Queríamos criar a experiência que <strong>nós</strong> gostaríamos de receber.
+                    </p>
+                    <p>
+                        Hoje, somos uma guilda apaixonada por tecnologia, apoiada pela Alura e Google, 
+                        com a missão de equipar a próxima geração de Tech Leads (você!) com as melhores ferramentas do mercado.
+                    </p>
+                    
+                    <!-- Assinatura Digital -->
+                    <div class="assinatura-tech">
+                        <span class="material-symbols-outlined">code</span>
+                        <span>Time DevBox</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- =========================================
+         SEÇÃO ORÁCULO: INTELIGÊNCIA ARTIFICIAL
+         ========================================= -->
+    <section id="oraculo" class="secao-oraculo">
+        <div class="container">
+            <div class="painel-oraculo">
+                <div class="icone-ia">
+                    <span class="material-symbols-outlined">psychology</span>
+                </div>
+                
+                <div class="conteudo-oraculo">
+                    <h2>O Oráculo do <span class="texto-neon">Bug</span></h2>
+                    <p>Precisa de uma desculpa para o atraso ou uma frase de sabedoria sênior? Pergunte à IA.</p>
+                    
+                    <!-- Onde a resposta vai aparecer -->
+                    <div id="resposta-ia" class="caixa-resposta">
+                        <span class="texto-placeholder">Aguardando consulta...</span>
+                    </div>
+
+                    <button id="btn-oraculo" class="btn-neon">
+                        <span class="material-symbols-outlined">auto_awesome</span>
+                        Invocar Sabedoria
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- =========================================
+         RODAPÉ FINAL
+         ========================================= -->
+    <footer class="rodape">
+        <div class="container">
+            <div class="conteudo-rodape">
+                <!-- Logo Simples -->
+                <div class="logo-rodape">
+                    <span class="material-symbols-outlined">terminal</span>
+                    DevBox
+                </div>
+
+                <!-- Texto de Copyright -->
+                <p>&copy; 2025 DevBox. Todos os direitos reservados.</p>
+                
+                <!-- Um toque final de estilo -->
+                <p class="feito-com">Feito com 💜 e muito café.</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Link para o JavaScript -->
+    <script src="js/config.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
