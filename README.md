@@ -1,10 +1,8 @@
-"DevBox: O hardware da sua carreira! 🚀 Esta aplicação simula um e-commerce para devs, mas funciona como um Hub de Descompressão. Integrei a API do Google Gemini para criar o 'Oráculo do Bug', que gera desculpas sênior e humor em tempo real para aliviar o estresse do dia a dia. Design 3D e código seguro. Role até o fim e teste o Oráculo agora!
-
-# 📦 DevBox: O Hardware da sua Carreira de Software
+# DevBox: O Hardware da sua Carreira de Software
 
 > *"Porque codar com café frio e setup ruim é um bug que a gente precisa corrigir."*
 
-## 👋 Sobre o Projeto
+## Sobre o Projeto
 
 DevBox: O hardware da sua carreira! 
 
@@ -19,4 +17,5 @@ Por questões de segurança, a chave da IA não está no código público. Mas a
 1.  **Gere uma chave grátis** no [Google AI Studio].
 2.  **Abra o arquivo** `js/config.js` neste projeto.
 3.  **Cole sua chave** lá.
-4.  **"O Oráculo está adormecido... 💤 Para despertá-lo e receber sabedoria infinita (e sarcasmo), recarregue a página e clique no botão. A mágica acontece na hora!"**
+4.  **"O Oráculo está adormecido... Para despertá-lo e receber sabedoria infinita (e sarcasmo), recarregue a página e clique no botão. A mágica acontece na hora!"**
+
